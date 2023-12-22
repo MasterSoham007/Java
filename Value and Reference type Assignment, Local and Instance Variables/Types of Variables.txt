@@ -1,0 +1,32 @@
+Value-Type Assignment Vs Reference-Type Assignment:
+
+In Value-Type Assignment, the value present within one primitive variable is assigned to another primitive variable.
+Modifications performed on one primitive variable will not be reflected onto the other variable.
+
+In Reference-Type Assignment, the address/reference present within one reference variable is assigned to another reference variable. As a result of which, both the references start pointing to (referring to) the same object.
+Any modifications done on the object using any of the reference variables, will be reflected onto the same object.
+
+Primitive Variables Vs Reference Variables:
+
+Primitive Variables are created using the primitive data types such as int, float, char, etc.. They store the actual values.
+Eg: int a = 10;
+
+Reference Variables are created using the non-primitive data types such as Dog, Fan, Student, etc.. They store the address of the objects they are referring to.
+Eg: Fan d = new Fan();
+
+Local Variables Vs Instance Variables:
+
+Local Variables are such variables which are declared directly inside a method/constructor/block. They cannot be used without initialization as they are not auto-initialized to default values by the compiler.
+
+Instance Variables are such variables which are declared directly inside a class and not inside any method/constructor/block. They can be used without initialization as they are auto-initialized to default values by the compiler.
+
+Unstructured Vs Structured Style of Programming:
+
+In unstructured style, large or complex programs are coded as a single-continuous block of code. It makes the program code hardly-readable. Hence, it is difficult to modify & debug.
+Suitable only for small & simple projects.
+
+In structured style, large or complex programs are converted into smaller blocks of code so that managing the code becomes easy, producing readable code. Hence, it is easier to modify & debug.
+Suitable for large & complex projects.
+
+***These blocks of code are implemented as "functions". Therefore, a function is a block of code or collection of statements grouped together to perform a certain task or operation.
+However, the block of code only runs/executes when the function is called.
