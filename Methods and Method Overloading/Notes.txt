@@ -1,0 +1,21 @@
+Method Overloading:
+
+Method Overloading promotes Virtual Polymorphism.
+
+C Language:
+In Dennis Ritchie's C language, any number of functions can be created. However, it is a rule in C language that no two functions can have the same name. This rule was made to avoid ambiguity (confusion) to the compiler, whenever a function is called.
+This simple rule had put the developers into a lot of trouble as now they had to remember multiple function names for the same activity. Hence, the disadvantage of this approach is it is not user-friendly.
+
+The limitation of C language was overcome in C++. Hence, it is possible to create multiple functions with the same name in C++. This process is referred to as Function Overloading in C++.
+This feature of C++ was carried ahead as it is in Java as well.
+
+In other words, in Java, we can create multiple methods within a class having the same name.
+
+The process of creating multiple methods in a class having the same name but with different parameters is reffered to as Method Overloading. The advantage is it promotes ease of use.
+
+The name conflict in Method Overloading is overcome by the Java Compiler using the following steps:
+
+1. Name of the Method
+2. Number of Parameters
+3. Data types of Parameters
+4. Sequence of Data Types of Parameters
