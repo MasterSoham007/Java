@@ -1,0 +1,133 @@
+Java is an impure Object-Oriented Programming language because it supports primitive data types.
+
+* If a 100% pure Object-oriented project has to be developed then we can make use of Wrapper classes introduced in Java 1.0 version.
+
+* Wrapper classes provides mechanism to convert primitive values into objects and objects into primitive values.
+
+Method Overloading with Type Promotion:
+
+In case of method overloading, whenever a call is made to an overloaded method and if an exact match is not found, then the compiler would find the closest match (most specific) by performing "type-promotion" or "implicit type-casting".
+
+Interview Programs on Method Overloading with Widening and Autoboxing:
+
+Program-1:
+
+class Demo
+{
+	void disp(byte i)
+    {
+        System.out.println("byte");
+    }
+    
+    void disp(int i)	//1
+    {
+        System.out.println("int");
+    }
+    
+    void disp(float i)	//2
+    {
+        System.out.println("float");
+    }
+    
+    void disp(double i)	//3
+    {
+        System.out.println("double");
+    }
+    
+    void disp(Integer i)	//4
+    {
+        System.out.println("Integer");
+    }
+    
+    void disp(Float i)
+    {
+        System.out.println("Float");
+    }
+    
+    void disp(Double i)
+    {
+        System.out.println("Double");
+    }
+    
+    void disp(Number i)	//5
+    {
+        System.out.println("Number");
+    }
+    
+    void disp(Object i)	//6
+    {
+        System.out.println("Object");
+    }
+}
+
+class Launch
+{
+	public static void main(String[] args)
+	{
+		Demo d = new Demo();
+		
+		int a = 10;
+		d.disp(a);
+	}
+}
+
+Program-2:
+
+class Demo
+{
+	void disp(byte i)
+    {
+        System.out.println("byte");
+    }
+    
+    void disp(int i)	//4
+    {
+        System.out.println("int");
+    }
+    
+    void disp(float i)	//5
+    {
+        System.out.println("float");
+    }
+    
+    void disp(double i)	//6
+    {
+        System.out.println("double");
+    }
+    
+    void disp(Integer i)	//1
+    {
+        System.out.println("Integer");
+    }
+    
+    void disp(Float i)
+    {
+        System.out.println("Float");
+    }
+    
+    void disp(Double i)
+    {
+        System.out.println("Double");
+    }
+    
+    void disp(Number i)	//2
+    {
+        System.out.println("Number");
+    }
+    
+    void disp(Object i)	//3
+    {
+        System.out.println("Object");
+    }
+}
+
+class Launch
+{
+	public static void main(String[] args)
+	{
+		Demo d = new Demo();
+		
+		Integer a = 10;
+		d.disp(a);
+	}
+}
