@@ -1,0 +1,17 @@
+Traditional approach of storing the data by creating variables is a good approach if small amount of data has to be stored. However, if large amount of data has to be stored then this approach fails because of the following limitations:
+1. Creation is tedious.
+2. Accessing the data is difficult.
+3. Length of the code increases.
+4. Suitable to store only small amount of data.
+
+To overcome the above limitations, we have to use the array approach to store large amount of data because it has following advantages:
+1. Creation is simple.
+2. Accessing the data is easy.
+3. Length of the code reduces.
+4. Suitable to store large volumes of data.
+
+Definition:
+
+An array is an indexed data structure used to store large volumes of homogeneous data.
+To store the elements of an array, contiguous memory locations are allocated.
+Arrays are objects in Java.
