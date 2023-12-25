@@ -1,0 +1,15 @@
+Jagged Arrays:
+
+In real life, the data is not always regular rather most of the times the data is irregular or jagged.
+
+In an array, if every row contains equal number of columns, then it is referred to as Rectangular array/Regular array.
+
+In an array, if every row contains different number of columns, then it is referred to as Jagged array/Irregular array.
+
+Advantages of Jagged array:
+1. Efficient memory utilization
+2. Improves performance
+
+Objects Array in Java:
+
+The Java arrays are capable of storing not only primitive type of data but also objects (either of them). However, it is not the object itself that is stored in the array instead it is the reference of the object.
