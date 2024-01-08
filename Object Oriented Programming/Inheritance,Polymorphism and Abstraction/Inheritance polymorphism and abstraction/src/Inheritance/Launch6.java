@@ -13,21 +13,21 @@ class Aeroplane{
 class CargoPlane extends Aeroplane{
     public void fly(){
         System.out.println("CargoPlane flies at a lower height");
-    }
+    }  // Overriding method
 
     public void carryGoods(){
         System.out.println("CargoPlane carries goods");
-    }
+    } // Specialized method
 }
 
 class PassengerPlane extends Aeroplane{
     public void fly(){                                    // overriding method
         System.out.println("PassengerPlane flies at medium height");
-    }
+    } // Overriding method
 
     public void carryPassengers(){                        // specialized method
         System.out.println("PassengerPlane carries passengers");
-    }
+    } // Specialized method
 }
 
 public class Launch6 {
