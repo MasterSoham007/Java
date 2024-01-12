@@ -1,5 +1,5 @@
 package CollectionAPI;
-
+// ArrayDeque in java
 import java.util.ArrayDeque;
 
 public class LaunchArrayDeque {

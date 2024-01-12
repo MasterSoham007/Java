@@ -1,7 +1,7 @@
 package CollectionAPI;
 
 import java.util.*;
-
+//ArrayList in java
 public class LaunchArrayList {
     public static void main(String[] args) {
         ArrayList al1 = new ArrayList();
