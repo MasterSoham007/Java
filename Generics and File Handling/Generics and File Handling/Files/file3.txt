@@ -1,0 +1,12 @@
+a
+Java
+100
+a
+50.5
+true
+a
+Java
+100
+a
+50.5
+true

@@ -34,16 +34,6 @@ class Student2 implements Comparable<Student2>{
     }
 }
 
-//class Alpha implements Comparator<Student>
-//{
-//    public int compare(Student a, Student b){
-//        if(a.marks > b.marks)
-//            return 1;
-//        else
-//            return -1;
-//    }
-//}
-
 
 public class launch2 {
     public static void main(String[] args) {
